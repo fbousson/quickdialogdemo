@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9CCF942154FE2C1009AE3E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CCF941154FE2C1009AE3E0 /* UIKit.framework */; };
+		F9CCF944154FE2C1009AE3E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CCF943154FE2C1009AE3E0 /* Foundation.framework */; };
+		F9CCF946154FE2C1009AE3E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CCF945154FE2C1009AE3E0 /* CoreGraphics.framework */; };
+		F9CCF94C154FE2C1009AE3E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9CCF94A154FE2C1009AE3E0 /* InfoPlist.strings */; };
+		F9CCF94E154FE2C1009AE3E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CCF94D154FE2C1009AE3E0 /* main.m */; };
+		F9CCF952154FE2C1009AE3E0 /* OBAYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CCF951154FE2C1009AE3E0 /* OBAYAppDelegate.m */; };
+		F9CCF955154FE2C1009AE3E0 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CCF953154FE2C1009AE3E0 /* MainStoryboard_iPhone.storyboard */; };
+		F9CCF958154FE2C1009AE3E0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CCF956154FE2C1009AE3E0 /* MainStoryboard_iPad.storyboard */; };
+		F9CCF95B154FE2C1009AE3E0 /* OBAYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CCF95A154FE2C1009AE3E0 /* OBAYViewController.m */; };
+		F9CCF963154FE2C1009AE3E0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CCF962154FE2C1009AE3E0 /* SenTestingKit.framework */; };
+		F9CCF964154FE2C1009AE3E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CCF941154FE2C1009AE3E0 /* UIKit.framework */; };
+		F9CCF965154FE2C1009AE3E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CCF943154FE2C1009AE3E0 /* Foundation.framework */; };
+		F9CCF96D154FE2C1009AE3E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9CCF96B154FE2C1009AE3E0 /* InfoPlist.strings */; };
+		F9CCF970154FE2C2009AE3E0 /* obayQuickDialogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CCF96F154FE2C2009AE3E0 /* obayQuickDialogTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9CCF966154FE2C1009AE3E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9CCF934154FE2C1009AE3E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9CCF93C154FE2C1009AE3E0;
+			remoteInfo = obayQuickDialog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9CCF93D154FE2C1009AE3E0 /* obayQuickDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = obayQuickDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CCF941154FE2C1009AE3E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9CCF943154FE2C1009AE3E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9CCF945154FE2C1009AE3E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9CCF949154FE2C1009AE3E0 /* obayQuickDialog-Info.plist */ = {isa = PBXFileReference; path = "obayQuickDialog-Info.plist"; sourceTree = "<group>"; };
+		F9CCF94B154FE2C1009AE3E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9CCF94D154FE2C1009AE3E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9CCF94F154FE2C1009AE3E0 /* obayQuickDialog-Prefix.pch */ = {isa = PBXFileReference; path = "obayQuickDialog-Prefix.pch"; sourceTree = "<group>"; };
+		F9CCF950154FE2C1009AE3E0 /* OBAYAppDelegate.h */ = {isa = PBXFileReference; path = OBAYAppDelegate.h; sourceTree = "<group>"; };
+		F9CCF951154FE2C1009AE3E0 /* OBAYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBAYAppDelegate.m; sourceTree = "<group>"; };
+		F9CCF954154FE2C1009AE3E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F9CCF957154FE2C1009AE3E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F9CCF959154FE2C1009AE3E0 /* OBAYViewController.h */ = {isa = PBXFileReference; path = OBAYViewController.h; sourceTree = "<group>"; };
+		F9CCF95A154FE2C1009AE3E0 /* OBAYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBAYViewController.m; sourceTree = "<group>"; };
+		F9CCF961154FE2C1009AE3E0 /* obayQuickDialogTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = obayQuickDialogTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CCF962154FE2C1009AE3E0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F9CCF96A154FE2C1009AE3E0 /* obayQuickDialogTests-Info.plist */ = {isa = PBXFileReference; path = "obayQuickDialogTests-Info.plist"; sourceTree = "<group>"; };
+		F9CCF96C154FE2C1009AE3E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9CCF96E154FE2C2009AE3E0 /* obayQuickDialogTests.h */ = {isa = PBXFileReference; path = obayQuickDialogTests.h; sourceTree = "<group>"; };
+		F9CCF96F154FE2C2009AE3E0 /* obayQuickDialogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = obayQuickDialogTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9CCF93A154FE2C1009AE3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CCF942154FE2C1009AE3E0 /* UIKit.framework in Frameworks */,
+				F9CCF944154FE2C1009AE3E0 /* Foundation.framework in Frameworks */,
+				F9CCF946154FE2C1009AE3E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CCF95D154FE2C1009AE3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CCF963154FE2C1009AE3E0 /* SenTestingKit.framework in Frameworks */,
+				F9CCF964154FE2C1009AE3E0 /* UIKit.framework in Frameworks */,
+				F9CCF965154FE2C1009AE3E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9CCF932154FE2C1009AE3E0 = {
+			isa = PBXGroup;
+			children = (
+				F9CCF947154FE2C1009AE3E0 /* obayQuickDialog */,
+				F9CCF968154FE2C1009AE3E0 /* obayQuickDialogTests */,
+				F9CCF940154FE2C1009AE3E0 /* Frameworks */,
+				F9CCF93E154FE2C1009AE3E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9CCF93E154FE2C1009AE3E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9CCF93D154FE2C1009AE3E0 /* obayQuickDialog.app */,
+				F9CCF961154FE2C1009AE3E0 /* obayQuickDialogTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9CCF940154FE2C1009AE3E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9CCF941154FE2C1009AE3E0 /* UIKit.framework */,
+				F9CCF943154FE2C1009AE3E0 /* Foundation.framework */,
+				F9CCF945154FE2C1009AE3E0 /* CoreGraphics.framework */,
+				F9CCF962154FE2C1009AE3E0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9CCF947154FE2C1009AE3E0 /* obayQuickDialog */ = {
+			isa = PBXGroup;
+			children = (
+				F9CCF950154FE2C1009AE3E0 /* OBAYAppDelegate.h */,
+				F9CCF951154FE2C1009AE3E0 /* OBAYAppDelegate.m */,
+				F9CCF953154FE2C1009AE3E0 /* MainStoryboard_iPhone.storyboard */,
+				F9CCF956154FE2C1009AE3E0 /* MainStoryboard_iPad.storyboard */,
+				F9CCF959154FE2C1009AE3E0 /* OBAYViewController.h */,
+				F9CCF95A154FE2C1009AE3E0 /* OBAYViewController.m */,
+				F9CCF948154FE2C1009AE3E0 /* Supporting Files */,
+			);
+			path = obayQuickDialog;
+			sourceTree = "<group>";
+		};
+		F9CCF948154FE2C1009AE3E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9CCF949154FE2C1009AE3E0 /* obayQuickDialog-Info.plist */,
+				F9CCF94A154FE2C1009AE3E0 /* InfoPlist.strings */,
+				F9CCF94D154FE2C1009AE3E0 /* main.m */,
+				F9CCF94F154FE2C1009AE3E0 /* obayQuickDialog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9CCF968154FE2C1009AE3E0 /* obayQuickDialogTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9CCF96E154FE2C2009AE3E0 /* obayQuickDialogTests.h */,
+				F9CCF96F154FE2C2009AE3E0 /* obayQuickDialogTests.m */,
+				F9CCF969154FE2C1009AE3E0 /* Supporting Files */,
+			);
+			path = obayQuickDialogTests;
+			sourceTree = "<group>";
+		};
+		F9CCF969154FE2C1009AE3E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9CCF96A154FE2C1009AE3E0 /* obayQuickDialogTests-Info.plist */,
+				F9CCF96B154FE2C1009AE3E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9CCF93C154FE2C1009AE3E0 /* obayQuickDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9CCF973154FE2C2009AE3E0 /* Build configuration list for PBXNativeTarget "obayQuickDialog" */;
+			buildPhases = (
+				F9CCF939154FE2C1009AE3E0 /* Sources */,
+				F9CCF93A154FE2C1009AE3E0 /* Frameworks */,
+				F9CCF93B154FE2C1009AE3E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = obayQuickDialog;
+			productName = obayQuickDialog;
+			productReference = F9CCF93D154FE2C1009AE3E0 /* obayQuickDialog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9CCF960154FE2C1009AE3E0 /* obayQuickDialogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9CCF976154FE2C2009AE3E0 /* Build configuration list for PBXNativeTarget "obayQuickDialogTests" */;
+			buildPhases = (
+				F9CCF95C154FE2C1009AE3E0 /* Sources */,
+				F9CCF95D154FE2C1009AE3E0 /* Frameworks */,
+				F9CCF95E154FE2C1009AE3E0 /* Resources */,
+				F9CCF95F154FE2C1009AE3E0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9CCF967154FE2C1009AE3E0 /* PBXTargetDependency */,
+			);
+			name = obayQuickDialogTests;
+			productName = obayQuickDialogTests;
+			productReference = F9CCF961154FE2C1009AE3E0 /* obayQuickDialogTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9CCF934154FE2C1009AE3E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OBAY;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Ordina;
+			};
+			buildConfigurationList = F9CCF937154FE2C1009AE3E0 /* Build configuration list for PBXProject "obayQuickDialog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9CCF932154FE2C1009AE3E0;
+			productRefGroup = F9CCF93E154FE2C1009AE3E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9CCF93C154FE2C1009AE3E0 /* obayQuickDialog */,
+				F9CCF960154FE2C1009AE3E0 /* obayQuickDialogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9CCF93B154FE2C1009AE3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CCF94C154FE2C1009AE3E0 /* InfoPlist.strings in Resources */,
+				F9CCF955154FE2C1009AE3E0 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F9CCF958154FE2C1009AE3E0 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CCF95E154FE2C1009AE3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CCF96D154FE2C1009AE3E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9CCF95F154FE2C1009AE3E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9CCF939154FE2C1009AE3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CCF94E154FE2C1009AE3E0 /* main.m in Sources */,
+				F9CCF952154FE2C1009AE3E0 /* OBAYAppDelegate.m in Sources */,
+				F9CCF95B154FE2C1009AE3E0 /* OBAYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CCF95C154FE2C1009AE3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CCF970154FE2C2009AE3E0 /* obayQuickDialogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9CCF967154FE2C1009AE3E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9CCF93C154FE2C1009AE3E0 /* obayQuickDialog */;
+			targetProxy = F9CCF966154FE2C1009AE3E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9CCF94A154FE2C1009AE3E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CCF94B154FE2C1009AE3E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9CCF953154FE2C1009AE3E0 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CCF954154FE2C1009AE3E0 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F9CCF956154FE2C1009AE3E0 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CCF957154FE2C1009AE3E0 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F9CCF96B154FE2C1009AE3E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CCF96C154FE2C1009AE3E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9CCF971154FE2C2009AE3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9CCF972154FE2C2009AE3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9CCF974154FE2C2009AE3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "obayQuickDialog/obayQuickDialog-Prefix.pch";
+				INFOPLIST_FILE = "obayQuickDialog/obayQuickDialog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9CCF975154FE2C2009AE3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "obayQuickDialog/obayQuickDialog-Prefix.pch";
+				INFOPLIST_FILE = "obayQuickDialog/obayQuickDialog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9CCF977154FE2C2009AE3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/obayQuickDialog.app/obayQuickDialog";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "obayQuickDialog/obayQuickDialog-Prefix.pch";
+				INFOPLIST_FILE = "obayQuickDialogTests/obayQuickDialogTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F9CCF978154FE2C2009AE3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/obayQuickDialog.app/obayQuickDialog";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "obayQuickDialog/obayQuickDialog-Prefix.pch";
+				INFOPLIST_FILE = "obayQuickDialogTests/obayQuickDialogTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9CCF937154FE2C1009AE3E0 /* Build configuration list for PBXProject "obayQuickDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CCF971154FE2C2009AE3E0 /* Debug */,
+				F9CCF972154FE2C2009AE3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9CCF973154FE2C2009AE3E0 /* Build configuration list for PBXNativeTarget "obayQuickDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CCF974154FE2C2009AE3E0 /* Debug */,
+				F9CCF975154FE2C2009AE3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9CCF976154FE2C2009AE3E0 /* Build configuration list for PBXNativeTarget "obayQuickDialogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CCF977154FE2C2009AE3E0 /* Debug */,
+				F9CCF978154FE2C2009AE3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9CCF934154FE2C1009AE3E0 /* Project object */;
+}
