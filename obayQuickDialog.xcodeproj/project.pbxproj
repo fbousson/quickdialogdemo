@@ -21,6 +21,9 @@
 		F9CCF965154FE2C1009AE3E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CCF943154FE2C1009AE3E0 /* Foundation.framework */; };
 		F9CCF96D154FE2C1009AE3E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9CCF96B154FE2C1009AE3E0 /* InfoPlist.strings */; };
 		F9CCF970154FE2C2009AE3E0 /* obayQuickDialogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CCF96F154FE2C2009AE3E0 /* obayQuickDialogTests.m */; };
+		F9CCF988154FE4E6009AE3E0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CCF987154FE4E6009AE3E0 /* MapKit.framework */; };
+		F9CCF98A154FE4F3009AE3E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CCF989154FE4F3009AE3E0 /* CoreLocation.framework */; };
+		F9CCF98D154FE519009AE3E0 /* libQuickDialog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CCF985154FE4AE009AE3E0 /* libQuickDialog.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,27 @@
 			remoteGlobalIDString = F9CCF93C154FE2C1009AE3E0;
 			remoteInfo = obayQuickDialog;
 		};
+		F9CCF982154FE4AE009AE3E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9CCF979154FE4AE009AE3E0 /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D80B0E3313E052DF00FA85CA;
+			remoteInfo = QuickDialogExample;
+		};
+		F9CCF984154FE4AE009AE3E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9CCF979154FE4AE009AE3E0 /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C542393145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
+		F9CCF98B154FE506009AE3E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9CCF979154FE4AE009AE3E0 /* QuickDialog.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C542392145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -38,22 +62,25 @@
 		F9CCF941154FE2C1009AE3E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F9CCF943154FE2C1009AE3E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F9CCF945154FE2C1009AE3E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F9CCF949154FE2C1009AE3E0 /* obayQuickDialog-Info.plist */ = {isa = PBXFileReference; path = "obayQuickDialog-Info.plist"; sourceTree = "<group>"; };
+		F9CCF949154FE2C1009AE3E0 /* obayQuickDialog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "obayQuickDialog-Info.plist"; sourceTree = "<group>"; };
 		F9CCF94B154FE2C1009AE3E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9CCF94D154FE2C1009AE3E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F9CCF94F154FE2C1009AE3E0 /* obayQuickDialog-Prefix.pch */ = {isa = PBXFileReference; path = "obayQuickDialog-Prefix.pch"; sourceTree = "<group>"; };
-		F9CCF950154FE2C1009AE3E0 /* OBAYAppDelegate.h */ = {isa = PBXFileReference; path = OBAYAppDelegate.h; sourceTree = "<group>"; };
+		F9CCF94F154FE2C1009AE3E0 /* obayQuickDialog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "obayQuickDialog-Prefix.pch"; sourceTree = "<group>"; };
+		F9CCF950154FE2C1009AE3E0 /* OBAYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBAYAppDelegate.h; sourceTree = "<group>"; };
 		F9CCF951154FE2C1009AE3E0 /* OBAYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBAYAppDelegate.m; sourceTree = "<group>"; };
 		F9CCF954154FE2C1009AE3E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		F9CCF957154FE2C1009AE3E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		F9CCF959154FE2C1009AE3E0 /* OBAYViewController.h */ = {isa = PBXFileReference; path = OBAYViewController.h; sourceTree = "<group>"; };
+		F9CCF959154FE2C1009AE3E0 /* OBAYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBAYViewController.h; sourceTree = "<group>"; };
 		F9CCF95A154FE2C1009AE3E0 /* OBAYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBAYViewController.m; sourceTree = "<group>"; };
 		F9CCF961154FE2C1009AE3E0 /* obayQuickDialogTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = obayQuickDialogTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CCF962154FE2C1009AE3E0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F9CCF96A154FE2C1009AE3E0 /* obayQuickDialogTests-Info.plist */ = {isa = PBXFileReference; path = "obayQuickDialogTests-Info.plist"; sourceTree = "<group>"; };
+		F9CCF96A154FE2C1009AE3E0 /* obayQuickDialogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "obayQuickDialogTests-Info.plist"; sourceTree = "<group>"; };
 		F9CCF96C154FE2C1009AE3E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F9CCF96E154FE2C2009AE3E0 /* obayQuickDialogTests.h */ = {isa = PBXFileReference; path = obayQuickDialogTests.h; sourceTree = "<group>"; };
+		F9CCF96E154FE2C2009AE3E0 /* obayQuickDialogTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = obayQuickDialogTests.h; sourceTree = "<group>"; };
 		F9CCF96F154FE2C2009AE3E0 /* obayQuickDialogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = obayQuickDialogTests.m; sourceTree = "<group>"; };
+		F9CCF979154FE4AE009AE3E0 /* QuickDialog.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuickDialog.xcodeproj; path = QuickDialog/QuickDialog.xcodeproj; sourceTree = "<group>"; };
+		F9CCF987154FE4E6009AE3E0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F9CCF989154FE4F3009AE3E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9CCF98D154FE519009AE3E0 /* libQuickDialog.a in Frameworks */,
+				F9CCF98A154FE4F3009AE3E0 /* CoreLocation.framework in Frameworks */,
+				F9CCF988154FE4E6009AE3E0 /* MapKit.framework in Frameworks */,
 				F9CCF942154FE2C1009AE3E0 /* UIKit.framework in Frameworks */,
 				F9CCF944154FE2C1009AE3E0 /* Foundation.framework in Frameworks */,
 				F9CCF946154FE2C1009AE3E0 /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +113,8 @@
 		F9CCF932154FE2C1009AE3E0 = {
 			isa = PBXGroup;
 			children = (
+				F9CCF989154FE4F3009AE3E0 /* CoreLocation.framework */,
+				F9CCF987154FE4E6009AE3E0 /* MapKit.framework */,
 				F9CCF947154FE2C1009AE3E0 /* obayQuickDialog */,
 				F9CCF968154FE2C1009AE3E0 /* obayQuickDialogTests */,
 				F9CCF940154FE2C1009AE3E0 /* Frameworks */,
@@ -102,6 +134,7 @@
 		F9CCF940154FE2C1009AE3E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F9CCF979154FE4AE009AE3E0 /* QuickDialog.xcodeproj */,
 				F9CCF941154FE2C1009AE3E0 /* UIKit.framework */,
 				F9CCF943154FE2C1009AE3E0 /* Foundation.framework */,
 				F9CCF945154FE2C1009AE3E0 /* CoreGraphics.framework */,
@@ -154,6 +187,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F9CCF97A154FE4AE009AE3E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9CCF983154FE4AE009AE3E0 /* QuickDialogExample.app */,
+				F9CCF985154FE4AE009AE3E0 /* libQuickDialog.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +210,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F9CCF98C154FE506009AE3E0 /* PBXTargetDependency */,
 			);
 			name = obayQuickDialog;
 			productName = obayQuickDialog;
@@ -213,6 +256,12 @@
 			mainGroup = F9CCF932154FE2C1009AE3E0;
 			productRefGroup = F9CCF93E154FE2C1009AE3E0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F9CCF97A154FE4AE009AE3E0 /* Products */;
+					ProjectRef = F9CCF979154FE4AE009AE3E0 /* QuickDialog.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F9CCF93C154FE2C1009AE3E0 /* obayQuickDialog */,
@@ -220,6 +269,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F9CCF983154FE4AE009AE3E0 /* QuickDialogExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = QuickDialogExample.app;
+			remoteRef = F9CCF982154FE4AE009AE3E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F9CCF985154FE4AE009AE3E0 /* libQuickDialog.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libQuickDialog.a;
+			remoteRef = F9CCF984154FE4AE009AE3E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F9CCF93B154FE2C1009AE3E0 /* Resources */ = {
@@ -284,6 +350,11 @@
 			isa = PBXTargetDependency;
 			target = F9CCF93C154FE2C1009AE3E0 /* obayQuickDialog */;
 			targetProxy = F9CCF966154FE2C1009AE3E0 /* PBXContainerItemProxy */;
+		};
+		F9CCF98C154FE506009AE3E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickDialog;
+			targetProxy = F9CCF98B154FE506009AE3E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
